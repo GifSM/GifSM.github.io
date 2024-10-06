@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
   <title>GifSM</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Estatus del Local Aztec" />
+  <meta name="description" content="Bienes raices, departamentos, renta, venta, Gif SM" />
   <meta name="author" content="LEXOSLX" />
 
   <!-- css -->
@@ -18,6 +18,8 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- Theme skin -->
   <link href="skins/default.css" rel="stylesheet" />
+  <!-- boxed bg -->
+  <link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
   <!-- Fav and touch icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
@@ -62,8 +64,8 @@
           <div class="span12">
             <div class="headnav">
               <ul>
-<!--                 <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i>Registrarse</a></li> -->
-<!--                 <li><a href="#mySignin" data-toggle="modal"><i class="icon-user"></i>Ingresar</a></li> -->
+<!--                 <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li> -->
+<!--                 <li><a href="#mySignin" data-toggle="modal">Sign in</a></li> -->
               </ul>
             </div>
             <!-- Signup Modal -->
@@ -176,58 +178,59 @@
               <div class="navigation">
                 <nav>
                   <ul class="nav topnav">
-                    <li class="dropdown">
+                    <li class="dropdown active">
                       <a href="index.html">Home <i class="icon-angle-down"></i></a>
-<!--                       <ul class="dropdown-menu"> -->
-<!--                         <li><a href="index-alt2.html">Homepage 2</a></li> -->
-<!--                         <li><a href="index-alt3.html">Homepage 3</a></li> -->
-<!--                       </ul> -->
-<!--                     </li> -->
-<!--                     <li class="dropdown active"> -->
-<!--                       <a href="#">Features <i class="icon-angle-down"></i></a> -->
-<!--                       <ul class="dropdown-menu"> -->
-<!--                         <li><a href="typography.html">Typography</a></li> -->
-<!--                         <li><a href="table.html">Table</a></li> -->
-<!--                         <li><a href="components.html">Components</a></li> -->
-<!--                         <li><a href="animations.html">56 Animations</a></li> -->
-<!--                         <li><a href="icons.html">Icons</a></li> -->
-<!--                         <li><a href="icon-variations.html">Icon variations</a></li> -->
-<!--                         <li class="dropdown"><a href="#">3 Sliders <i class="icon-angle-right"></i></a> -->
-<!--                           <ul class="dropdown-menu sub-menu-level1"> -->
-<!--                             <li><a href="index.html">Nivo slider</a></li> -->
-<!--                             <li><a href="index-alt2.html">Slit slider</a></li> -->
-<!--                             <li><a href="index-alt3.html">Parallax slider</a></li> -->
-<!--                           </ul> -->
-<!--                         </li> -->
-<!--                       </ul> -->
-<!--                     </li> -->
-<!--                     <li class="dropdown"> -->
-<!--                       <a href="#">Pages <i class="icon-angle-down"></i></a> -->
-<!--                       <ul class="dropdown-menu"> -->
-<!--                         <li><a href="about.html">About us</a></li> -->
-<!--                         <li><a href="pricingbox.html">Pricing boxes</a></li> -->
-<!--                         <li><a href="testimonials.html">Testimonials</a></li> -->
-<!--                         <li><a href="404.html">404</a></li> -->
-<!--                       </ul> -->
-<!--                     </li> -->
-<!--                     <li class="dropdown"> -->
-<!--                       <a href="#">Portfolio <i class="icon-angle-down"></i></a> -->
-<!--                       <ul class="dropdown-menu"> -->
-<!--                         <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li> -->
-<!--                         <li><a href="portfolio-3cols.html">Portfolio 3 columns</a></li> -->
-<!--                         <li><a href="portfolio-4cols.html">Portfolio 4 columns</a></li> -->
-<!--                         <li><a href="portfolio-detail.html">Portfolio detail</a></li> -->
-<!--                       </ul> -->
-<!--                     </li> -->
-<!--                     <li class="dropdown"> -->
-<!--                       <a href="#">Blog <i class="icon-angle-down"></i></a> -->
-<!--                       <ul class="dropdown-menu"> -->
-<!--                         <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li> -->
-<!--                         <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li> -->
-<!--                         <li><a href="post-left-sidebar.html">Post left sidebar</a></li> -->
-<!--                         <li><a href="post-right-sidebar.html">Post right sidebar</a></li> -->
-<!--                       </ul> -->
-<!--                     </li> -->
+                      <!-- <ul class="dropdown-menu">
+                        <li><a href="index-alt2.html">Renta</a></li>
+                        <li><a href="index-alt3.html">Venta</a></li>
+                      </ul> -->
+                    </li>
+                    <!-- 
+                    <li class="dropdown">
+                      <a href="#">Features <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="typography.html">Typography</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="components.html">Components</a></li>
+                        <li><a href="animations.html">56 Animations</a></li>
+                        <li><a href="icons.html">Icons</a></li>
+                        <li><a href="icon-variations.html">Icon variations</a></li>
+                        <li class="dropdown"><a href="#">3 Sliders <i class="icon-angle-right"></i></a>
+                          <ul class="dropdown-menu sub-menu-level1">
+                            <li><a href="index.html">Nivo slider</a></li>
+                            <li><a href="index-alt2.html">Slit slider</a></li>
+                            <li><a href="index-alt3.html">Parallax slider</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Pages <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="pricingbox.html">Pricing boxes</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="404.html">404</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Portfolio <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="portfolio-2cols.html">Portfolio 2 columns</a></li>
+                        <li><a href="portfolio-3cols.html">Portfolio 3 columns</a></li>
+                        <li><a href="portfolio-4cols.html">Portfolio 4 columns</a></li>
+                        <li><a href="portfolio-detail.html">Portfolio detail</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Blog <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
+                        <li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
+                        <li><a href="post-left-sidebar.html">Post left sidebar</a></li>
+                        <li><a href="post-right-sidebar.html">Post right sidebar</a></li>
+                      </ul>
+                    </li> -->
                     <li>
                       <a href="contact.html">Contacto </a>
                     </li>
@@ -246,13 +249,14 @@
         <div class="row">
           <div class="span4">
             <div class="inner-heading">
-              <h2>Estatus Salón</h2>
+              <h2>Renta</h2>
             </div>
           </div>
           <div class="span8">
             <ul class="breadcrumb">
               <li><a href="#"><i class="icon-home"></i></a><i class="icon-angle-right"></i></li>
-              <li><a href="#">Estatus</a><i class="icon-angle-right"></i></li>
+              <li><a href="#">Departamento</a><i class="icon-angle-right"></i></li>
+              <li class="active">Azteca</li>
             </ul>
           </div>
         </div>
@@ -260,107 +264,125 @@
     </section>
     <section id="content">
       <div class="container">
-        <div class="row demobtn">
-          <div class="span12">
-            <div class="row">
-              <div class="span6">
-                <ul class="nav nav-tabs">
-                  <li><a href="#24Ene" data-toggle="tab"><i class="icon-calendar"></i>2024 1</a></li>
-                  <li><a href="#24Feb" data-toggle="tab">2</a></li>
-                  <li><a href="#24Mar" data-toggle="tab">3</a></li>
-                  <li><a href="#24Abr" data-toggle="tab">4</a></li>
-                  <li class="active"><a href="#24May" data-toggle="tab">5</a></li>
-                </ul>
-                <div class="tab-content">
-                  <div class="tab-pane" id="24Ene">
-Enero 2024
-                  </div>
-                  <div class="tab-pane" id="24Feb">
-Febrero 2024
-                  </div>
-                  <div class="tab-pane" id="24Mar">
-Marzo 2024
-                  </div>
-                  
-                  <div class="tab-pane" id="24Abr">
-Abril 2024
-                  </div>
-                  
-                  <div class="tab-pane active" id="24May">
-Mayo 2024
-                    <div class="tabbable tabs-left">
-                      <ul class="nav nav-tabs">
-                        <li><a href="#2405Espacio" data-toggle="tab">Espacio</a></li>
-                        <li><a href="#2405Servicios" data-toggle="tab">Servicios</a></li>
-                        <li class="active"><a href="#2405Avisos" data-toggle="tab">Avisos</a></li>
-                      </ul>
-                      <div class="tab-content">
-                        <div  class="tab-pane" id="2405Espacio">
-                          <table border="1">
-                            <tr> <td> <a class="btn btn-green" title="Depósito"><i class="icon-inbox"></i></a>    <a class="btn btn-green" title="Renta"><i class="icon-home"></i></a>    <a class="btn btn-green" title="Contrato"><i class="icon-edit"></i></a> </td> </tr>
-                          </table>
-                        </div>
-                        <div class="tab-pane" id="2405Servicios">
-                          <table border="1">
-                            <tr> <td> <a class="btn btn-red" title="Luz"><i class="icon-bolt"></i></a>    <a class="btn btn-red" title="Agua"><i class="font-icon-tint"></i></a>    <a class="btn btn-info" title="Mantenimiento"><i class="icon-user"></i></a> </td> </tr>
-                          </table>
-                        </div>
-                        <div class="tab-pane active" id="2405Avisos">
-                          <table border="1">
-                            <tr> <td>
-                             <textarea disabled="disabled" rows="7" style="width: 200px;">
--Te recordamos cuidar el espacio
--Te pedimos hacer un uso consciente del agua
-                             </textarea> 
-                            </td> </tr>
-                          </table>
-                        </div>
-                        <div class="tab-pane" id="2405PB">
-                          <table border="1">
-                            <tr> <td>
-                              </td> </tr>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-Actualizado: 27/May/24
-                  </div>
-                  
-                </div>
-              </div>
-              
-              <div class="span6">
-                <h4>
-Iconos          </h4>
-                <div>
-                  <a class="btn" title="Local">-</a>Avisos    
-                </div>
-                <div>
-                  <a class="btn btn-info" title="Renta"><i class="icon-inbox"></i></a>Deposito <a class="btn btn-info" title="Renta"><i class="icon-home"></i></a>Renta    <a class="btn btn-info" title="Contrato"><i class="icon-edit"></i></a>Contrato     <a class="btn btn-info" title="Luz"><i class="icon-bolt"></i></a>Luz    <a class="btn btn-info" title="Agua"><i class="font-icon-tint"></i></a>Agua    <a class="btn btn-info" title="Mantenimiento"><i class=" icon-user"></i></a>Mantenimiento
-                </div>
-                <h4>
-Colores         </h4>
-                <div>
-                 <a class="btn btn-info" title="Renta"></a>No aplica
-                 <a class="btn btn-red" title="Renta"></a>Pendiente
-                 <a class="btn btn-orange" title="Renta"></a>Con detalles
-                 <a class="btn btn-green" title="Renta"></a>Ok
-                </div>
-Los pendientes aparecerán en rojo y el tiempo promedio de actualización es de 3 a 5 dias.
-              </div>
-              
-              
+        <div class="row">
+          <div class="span6">
+            <!-- start flexslider -->
+            <div class="flexslider">
+              <ul class="slides">
+                <li> <img src="img/deptos/full/d3/d3L1.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3.jpg" alt="" /> </li>
+                
+                <li> <img src="img/deptos/full/d3/d3SC1.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3SC2.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3SC3.jpg" alt="" /> </li>
+                
+                <li> <img src="img/deptos/full/d3/d3B0.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3B1.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3B2.jpg" alt="" /> </li>
+                
+                <li> <img src="img/deptos/full/d3/d3R1.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3R2.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3R3.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3R4.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3R5.jpg" alt="" /> </li>
+                <li> <img src="img/deptos/full/d3/d3R6.jpg" alt="" /> </li>
+                
+                <li> <img src="img/deptos/full/cA4.jpg" alt="" /> </li>
+              </ul>
             </div>
-            <!-- divider -->
-<!--             <div class="row"> -->
-<!--               <div class="span12"> -->
-<!--                 <div class="solidline"> -->
+            <!-- end flexslider -->
+          </div>
+          
+          
+          
+          
+          
+          <div class="span6">
+            <h4>DA4 D3</h4>
+            <div class="accordion" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+15 de sep 2024 <strong>Ocupado</strong> </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <p>
+<strong>$ 4 000,</strong> 
+30 m2, 1 recamara, 1 sala/comedor, 1 baño
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+               Detalles</a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+1 área de lavado, 1 lugar de estacionamiento techado, 
+1 zaguán automático, No se permiten mascotas
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+              Requisitos</a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <p>
+- Comprobantes de ingresos.
+- Identificación oficial (INE).
+- Comprobante de domicilio.
+- Fiador propietario de un inmueble, con los mismos comprobantes que el interesado.
+                    </p>
+                  </div>
+                </div>
+              </div>
+<!--               <div class="accordion-group"> -->
+<!--                 <div class="accordion-heading"> -->
+<!--                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"> -->
+<!--               4. What we can deliver </a> -->
+<!--                 </div> -->
+<!--                 <div id="collapseFour" class="accordion-body collapse"> -->
+<!--                   <div class="accordion-inner"> -->
+<!--                     <p> -->
+<!--                       Diam alienum oporteat ad vis, latine intellegebat cu his. Ei eros dicam commodo duo, an assum meliore eam. In sed albucius dissentiet. Sit laudem graece malorum ne, at eam omnesque expetenda pertinacia, tale meliore vim ea. Dolore legere deleniti ius -->
+<!--                       at, mea nibh discere perfecto ex. Mea ea iuvaret eripuit, eos no vivendo intellegat definiebas, patrioque eloquentiam eos et. -->
+<!--                     </p> -->
+<!--                   </div> -->
 <!--                 </div> -->
 <!--               </div> -->
-<!--             </div> -->
-            <!-- end divider -->
+            </div>
           </div>
-          <!-- end span12 -->
+          
+          
+          
+          
+          
+        </div>
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+        <div class="row">
         </div>
       </div>
     </section>
@@ -371,6 +393,7 @@ Los pendientes aparecerán en rojo y el tiempo promedio de actualización es de 
             <div class="widget">
               <h5 class="widgetheading">Examinar páginas</h5>
               <ul class="link-list">
+                
                 <li><a href="sobreNuestraCompañia.html">Sobre nuestra compañía</a></li>
                 <li><a href="#">Conozca a nuestro equipo</a></li>
                 <li><a href="index.html">Explore nuestro portafolio</a></li>
