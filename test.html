@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar/Ocultar Imagen</title>
+    <style>
+        .btn {
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Prueba para Mostrar/Ocultar Imagen</h2>
+    
+    <!-- Imagen que se mostrará/ocultará -->
+    <img id="imgLuzOCTUBREL1" src="img/servicios/luz/2024/AZTECL1 08AGO24-09OCT24/BLVD TONATIUH MZ111 L11 0 L26OCT2024.png" alt="imgLuzOCTUBREL1" style="display: none;">
+    
+    <img id="imgLuzOCTUBREL1" src="img/servicios/luz/2024/AZTECS1.1 08AGO24-09OCT24/BLVD TONATIUH MZ111 L11 8 L26OCT2024.png" alt="imgLuzOCTUBREL1" style="display: none;">
+
+    <!-- Botón para mostrar u ocultar la imagen -->
+    <a id="btnLuzOCTUBREL1" onclick="mostrarOcultarImagen('imgLuzOCTUBREL1');" class="btn" title="Luz">Mostrar/Ocultar Imagen</a>
+
+    <script>
+        // Función para mostrar u ocultar la imagen
+        function mostrarOcultarImagen(imgId){
+            var imagen = document.getElementById(imgId); // Obtiene la imagen usando el id
+            
+            // Alterna la visibilidad de la imagen
+            if(imagen.style.display === "none"){
+                imagen.style.display = "block"; // Muestra la imagen
+            } else {
+                imagen.style.display = "none"; // Oculta la imagen
+            }
+        }
+    </script>
+
+</body>
+</html>
+
